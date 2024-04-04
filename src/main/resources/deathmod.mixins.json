@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.sunl.deathmod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlayerMoveMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

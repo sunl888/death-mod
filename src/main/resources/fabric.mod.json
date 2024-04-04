@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "deathmod",
+  "version": "${version}",
+  "name": "death-mod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/sunl888/death-mod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/deathmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.sunl.deathmod.client.DeathModClient"
+    ],
+    "main": [
+      "com.sunl.deathmod.DeathMod"
+    ]
+  },
+  "mixins": [
+    "deathmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
